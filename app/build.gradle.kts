@@ -48,6 +48,7 @@ dependencies {
 	implementation(libs.compose.material)
 	implementation(libs.compose.foundation)
 	implementation(libs.wear.tooling.preview)
+	implementation(libs.wear.compose.ui.tooling)
 	implementation(libs.activity.compose)
 	implementation(libs.core.splashscreen)
 	androidTestImplementation(platform(libs.compose.bom))
