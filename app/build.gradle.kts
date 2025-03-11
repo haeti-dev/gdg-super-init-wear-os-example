@@ -51,6 +51,8 @@ dependencies {
 	implementation(libs.wear.compose.ui.tooling)
 	implementation(libs.activity.compose)
 	implementation(libs.core.splashscreen)
+	implementation(libs.health.services.client)
+	implementation(libs.android.work)
 	androidTestImplementation(platform(libs.compose.bom))
 	androidTestImplementation(libs.ui.test.junit4)
 	debugImplementation(libs.ui.tooling)
